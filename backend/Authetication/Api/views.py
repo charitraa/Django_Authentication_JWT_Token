@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from .serializers import UserRegistrationSerializer , UserLoginSerializer
 from rest_framework import status
 from django.contrib.auth import authenticate
-
+from rest_framework_simplejwt import tokens
 class UserRgistrationView(APIView):
     def post(self, request ):
         serializer = UserRegistrationSerializer(data=request.data)
