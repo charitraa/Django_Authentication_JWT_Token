@@ -21,3 +21,18 @@ class UserLoginSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['email','password']
+
+class UserProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['email','name']
+
+class UserChangePasswordSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(style={'input_type':'password'},write_only=True)
+    password2 = serializers.CharField(style={'input_type':'password'},write_only=True)
+    class Meta:
+        model = User
+        fields = ['password','password2']
+        extra_kwargs = {'password':{'write_only':True}}
+
+    
