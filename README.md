@@ -1,10 +1,10 @@
-# Awesome Cart
+# Django_Authentication_JWT_Token
 
 # Getting Started
 
 First clone the repository from Github and switch to the new directory:
   ```shell
-    $ gh repo clone charitraa/Authetication
+    $ git clone https://github.com/charitraa/Django_Authentication_JWT_Token.git
     $ cd Authetication
   ```
 
