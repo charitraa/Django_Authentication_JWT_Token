@@ -5,12 +5,12 @@
 First clone the repository from Github and switch to the new directory:
   ```shell
     $ git clone https://github.com/charitraa/Django_Authentication_JWT_Token.git
-    $ cd Authetication
+    $ cd backend/Authetication
   ```
 
 ## Installation
 
-Python 3.4 is required. If you don't have Python 3.4 or higher, download the appropriate package and install:
+Python 3.10 is required. If you don't have Python 3.4 or higher, download the appropriate package and install:
 
 ```shell
 wget https://www.python.org/ftp/python/3.4.3/python-3.4.3-macosx10.6.pkg
